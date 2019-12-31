@@ -1,0 +1,48 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchbar{
+  width: 200px;
+  margin: 20px;
+  font-size: 13px;
+}
+
+.course_code{
+  text-align: center;
+}
+
+.description{
+  width: 600px;
+}
+
+.instruction{
+  text-align: center;
+}
+
+.graph_container{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset_zoom_btn{
+  border: 1px solid #2c2c2c;
+  border-radius: 3px;
+  color: #2c2c2c;
+  font-size: 12px;
+}
+
+.reset_zoom_btn:hover{
+  background-color: #2c2c2c;
+  color: white;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.reset_zoom_btn:focus{
+  outline:0;
+}

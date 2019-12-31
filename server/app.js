@@ -6,7 +6,7 @@ const MongoClient = require('mongodb').MongoClient;
 const cors = require('cors');
 
 // constants
-const MONGODB_URL = process.env.MONGODB_URL;
+const MONGODB_URL = process.env.MONGODB_URL_READ_ONLY;
 const PORT = 4000;
 
 // setup
